@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "category": "Sci-Fi",
+    "year": 2010,
+    "rating": 8.8,
+    "image": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+    "desc": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "category": "Action",
+    "year": 2008,
+    "rating": 9.0,
+    "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "desc": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "category": "Sci-Fi",
+    "year": 2014,
+    "rating": 8.6,
+    "image": "https://image.tmdb.org/t/p/w500/gEU2QniL6E8ahDaNBkDLz65kr0p.jpg",
+    "desc": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+  },
+  {
+    "id": 4,
+    "title": "Parasite",
+    "category": "Drama",
+    "year": 2019,
+    "rating": 8.5,
+    "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "desc": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+  },
+  {
+    "id": 5,
+    "title": "Avengers: Endgame",
+    "category": "Action",
+    "year": 2019,
+    "rating": 8.4,
+    "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    "desc": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+  }
+]
