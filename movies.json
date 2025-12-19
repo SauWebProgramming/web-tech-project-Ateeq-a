@@ -1,47 +1,302 @@
 [
   {
     "id": 1,
-    "title": "Inception",
-    "category": "Sci-Fi",
-    "year": 2010,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "type": "Movie",
+    "genre": "Fantasy, Adventure",
+    "year": 2001,
     "rating": 8.8,
-    "image": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
-    "desc": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+    "image": "https://m.media-amazon.com/images/I/81EBp0vOZZL._AC_UF894,1000_QL80_.jpg",
+    "desc": "A young hobbit, Frodo Baggins, is tasked with destroying an ancient and powerful ring to save Middle-earth."
   },
   {
     "id": 2,
-    "title": "The Dark Knight",
-    "category": "Action",
-    "year": 2008,
-    "rating": 9.0,
-    "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "desc": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    "title": "The Lord of the Rings: The Two Towers",
+    "type": "Movie",
+    "genre": "Fantasy, Adventure",
+    "year": 2002,
+    "rating": 8.7,
+    "image": "https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_.jpg",
+    "desc": "In the second part of the legendary trilogy, Frodo and his friends continue their journey to destroy the One Ring while forging new alliances."
   },
   {
     "id": 3,
-    "title": "Interstellar",
-    "category": "Sci-Fi",
-    "year": 2014,
-    "rating": 8.6,
-    "image": "https://image.tmdb.org/t/p/w500/gEU2QniL6E8ahDaNBkDLz65kr0p.jpg",
-    "desc": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    "title": "The Lord of the Rings: The Return of the King",
+    "type": "Movie",
+    "genre": "Fantasy, Adventure",
+    "year": 2003,
+    "rating": 9.0,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "desc": "In the trilogy's finale, forces of good and evil face off in a final battle to determine the fate of Middle-earth."
   },
   {
     "id": 4,
-    "title": "Parasite",
-    "category": "Drama",
-    "year": 2019,
-    "rating": 8.5,
-    "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "desc": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+    "title": "Inception",
+    "type": "Movie",
+    "genre": "Sci-Fi, Action",
+    "year": 2010,
+    "rating": 8.8,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+    "desc": "Dom Cobb is a skilled thief who steals secrets from the subconscious by entering people's dreams."
   },
   {
     "id": 5,
+    "title": "Breaking Bad",
+    "type": "Series",
+    "genre": "Drama, Crime",
+    "year": 2008,
+    "rating": 9.5,
+    "image": "https://image.tmdb.org/t/p/original/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
+    "desc": "A high school chemistry teacher diagnosed with cancer starts manufacturing drugs with a former student to secure his family's future."
+  },
+  {
+    "id": 6,
+    "title": "The Dark Knight",
+    "type": "Movie",
+    "genre": "Action, Crime",
+    "year": 2008,
+    "rating": 9.0,
+    "image": "https://media.posterstore.com/site_images/68631bd37d2ae084e18280d0_1667602922_WB0037-8.jpg",
+    "desc": "Batman attempts to stop the chaos wreaked upon Gotham City by a criminal mastermind known as the Joker."
+  },
+  {
+    "id": 7,
+    "title": "The Silence of the Lambs",
+    "type": "Movie",
+    "genre": "Thriller, Crime",
+    "year": 1991,
+    "rating": 8.6,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXD5EzCfvxKSqbAfp8BlsWjDQumsX0S9rYVg&s",
+    "desc": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer."
+  },
+  {
+    "id": 8,
+    "title": "Naruto",
+    "type": "Anime",
+    "genre": "Action, Adventure",
+    "year": 2002,
+    "rating": 8.3,
+    "image": "https://i.pinimg.com/736x/f8/6c/c3/f86cc358c2f65afc5cc2472f9ec2bcc4.jpg",
+    "desc": "An outcast young ninja struggles to become the strongest leader (Hokage) of his village and gain everyone's respect."
+  },
+  {
+    "id": 10,
+    "title": "Dragon Ball",
+    "type": "Anime",
+    "genre": "Adventure, Action",
+    "year": 1986,
+    "rating": 8.6,
+    "image": "https://m.media-amazon.com/images/M/MV5BMGQ0ZWE4NDYtYWY0Mi00MjE0LWI1MzctZDA1NGExYzE3N2FiXkEyXkFqcGc@._V1_.jpg",
+    "desc": "Goku, a small boy with a monkey tail, goes on a great adventure to find the seven legendary Dragon Balls."
+  },
+  {
+    "id": 12,
+    "title": "Dragon Ball Super",
+    "type": "Anime",
+    "genre": "Action, Fantasy",
+    "year": 2015,
+    "rating": 8.3,
+    "image": "https://m.media-amazon.com/images/M/MV5BYTgyMzA5MjEtNDY3Ny00ZDkyLWJhYzEtYzI2Nzk5Mzc3ZDk1XkEyXkFqcGc@._V1_.jpg",
+    "desc": "After the defeat of Majin Buu, Goku meets the God of Destruction Beerus and reaches new power levels."
+  },
+  {
+    "id": 13,
+    "title": "Dexter",
+    "type": "Series",
+    "genre": "Crime, Drama",
+    "year": 2006,
+    "rating": 8.7,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ3YmQ4YzMtOTkyZC00YmM5LThhZjEtM2E0MjFkNTc0OGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "desc": "By day, mild-mannered Dexter is a forensics expert, but by night, he is a serial killer who hunts down criminals who have escaped justice."
+  },
+  {
+    "id": 14,
+    "title": "The Matrix",
+    "type": "Movie",
+    "genre": "Sci-Fi, Action",
+    "year": 1999,
+    "rating": 8.7,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSjSWOCaw5dnDL2GT1zFd9RMCgUGw5Q2Cfg&s",
+    "desc": "A computer hacker learns that his world is a simulation and discovers he is 'The One' who will save humanity."
+  },
+  {
+    "id": 15,
+    "title": "Fight Club",
+    "type": "Movie",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 8.8,
+    "image": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg",
+    "desc": "An ordinary office worker meets a charismatic soap salesman and they found a secret underground fight club."
+  },
+  {
+    "id": 16,
+    "title": "Better Call Saul",
+    "type": "Series",
+    "genre": "Crime, Drama",
+    "year": 2015,
+    "rating": 9.0,
+    "image": "https://m.media-amazon.com/images/M/MV5BNDdjNTEzMjMtYjM3Mi00NzQ3LWFlNWMtZjdmYWU3ZDkzMjk1XkEyXkFqcGc@._V1_.jpg",
+    "desc": "A prequel to Breaking Bad, this series follows small-time lawyer Jimmy McGill's transformation into the morally ambiguous Saul Goodman."
+  },
+  {
+    "id": 17,
+    "title": "Sherlock",
+    "type": "Series",
+    "genre": "Mystery, Crime",
+    "year": 2010,
+    "rating": 9.1,
+    "image": "https://m.media-amazon.com/images/M/MV5BNTQzNGZjNDEtOTMwYi00MzFjLWE2ZTYtYzYxYzMwMjZkZDc5XkEyXkFqcGc@._V1_.jpg",
+    "desc": "Famous detective Sherlock Holmes and his partner Dr. Watson solve the most complex mysteries in modern-day London."
+  },
+  {
+    "id": 18,
+    "title": "Stranger Things",
+    "type": "Series",
+    "genre": "Sci-Fi, Horror",
+    "year": 2016,
+    "rating": 8.7,
+    "image": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_.jpg",
+    "desc": "When a young boy disappears, a small town uncovers a mystery involving supernatural forces and secret government experiments."
+  },
+  {
+    "id": 19,
+    "title": "Game of Thrones",
+    "type": "Series",
+    "genre": "Fantasy, Drama",
+    "year": 2011,
+    "rating": 9.2,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "desc": "Noble families fight for control of the Seven Kingdoms, engaging in a bloody struggle for the Iron Throne."
+  },
+  {
+    "id": 20,
+    "title": "Peaky Blinders",
+    "type": "Series",
+    "genre": "Crime, Drama",
+    "year": 2013,
+    "rating": 8.8,
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6a8638139933299.6238c58d45af7.png",
+    "desc": "In post-WWI Birmingham, gang leader Thomas Shelby will stop at nothing to expand his family's power."
+  },
+  {
+    "id": 21,
+    "title": "Doctor Who",
+    "type": "Series",
+    "genre": "Sci-Fi, Adventure",
+    "year": 2005,
+    "rating": 8.9,
+    "image": "https://posterfabrikasi.com/wp-content/uploads/2024/01/Doctor-Who.jpg",
+    "desc": "An alien Time Lord travels through time and space, experiencing adventures in different eras and places."
+  },
+  {
+    "id": 22,
+    "title": "The Good Place",
+    "type": "Series",
+    "genre": "Comedy",
+    "year": 2016,
+    "rating": 8.5,
+    "image": "https://m.media-amazon.com/images/I/91YtjKGJk0L._AC_UF1000,1000_QL80_.jpg",
+    "desc": "A woman wakes up in the afterlife and tries to become a better person in this comedy series exploring ethics."
+  },
+  {
+    "id": 23,
+    "title": "Godzilla",
+    "type": "Movie",
+    "genre": "Sci-Fi, Action",
+    "year": 2014,
+    "rating": 6.4,
+    "image": "https://m.media-amazon.com/images/M/MV5BODE2NTdmMmYtY2U1OS00MjExLWIwNjQtYjQ5NTA0ZDZmZjZiXkEyXkFqcGc@._V1_.jpg",
+    "desc": "A giant monster poses a massive threat to humanity as the world faces the rise of ancient predators."
+  },
+  {
+    "id": 24,
+    "title": "Godzilla Minus One",
+    "type": "Movie",
+    "genre": "Sci-Fi, Action",
+    "year": 2023,
+    "rating": 7.5,
+    "image": "https://m.media-amazon.com/images/M/MV5BMmM0MjE5MzMtMWNjZS00NTQ1LTg2MTEtNDdjNDQ0Mjg4YzgxXkEyXkFqcGc@._V1_.jpg",
+    "desc": "Post-war Japan is at its lowest point when a new crisis emerges in the form of a giant monster, Godzilla."
+  },
+  {
+    "id": 102,
+    "title": "The Avengers",
+    "type": "Movie",
+    "genre": "Action, Sci-Fi",
+    "year": 2012,
+    "rating": 8.0,
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
+    "desc": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army."
+  },
+  {
+    "id": 103,
+    "title": "Avengers: Infinity War",
+    "type": "Movie",
+    "genre": "Action, Sci-Fi",
+    "year": 2018,
+    "rating": 8.4,
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
+    "desc": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos."
+  },
+  {
+    "id": 104,
     "title": "Avengers: Endgame",
-    "category": "Action",
+    "type": "Movie",
+    "genre": "Action, Sci-Fi",
     "year": 2019,
     "rating": 8.4,
-    "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-    "desc": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+    "desc": "After the devastating events of Infinity War, the universe is in ruins. The Avengers assemble once more to reverse Thanos' actions."
+  },
+  {
+    "id": 105,
+    "title": "Spider-Man: No Way Home",
+    "type": "Movie",
+    "genre": "Action, Fantasy",
+    "year": 2021,
+    "rating": 8.2,
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/00/Spider-Man_No_Way_Home_poster.jpg",
+    "desc": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes start to appear."
+  },
+  {
+    "id": 106,
+    "title": "Black Panther",
+    "type": "Movie",
+    "genre": "Action, Sci-Fi",
+    "year": 2018,
+    "rating": 7.3,
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg",
+    "desc": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future."
+  },
+  {
+    "id": 108,
+    "title": "Thor: Ragnarok",
+    "type": "Movie",
+    "genre": "Action, Comedy",
+    "year": 2017,
+    "rating": 7.9,
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg",
+    "desc": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök."
+  },
+  {
+    "id": 109,
+    "title": "Captain America: Civil War",
+    "type": "Movie",
+    "genre": "Action, Sci-Fi",
+    "year": 2016,
+    "rating": 7.8,
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg",
+    "desc": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man."
+  },
+  {
+    "id": 201,
+    "title": "Frieren: Beyond Journey's End",
+    "type": "Anime",
+    "genre": "Adventure, Fantasy",
+    "year": 2023,
+    "rating": 9.1,
+    "image": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+    "desc": "After defeating the Demon King, the elf mage Frieren sets out on a journey to learn more about humans."
   }
 ]
