@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "category": "Fantasy",
+    "year": 1997,
+    "image": "https://m.media-amazon.com/images/I/71CO9E2vH-L._AC_UF1000,1000_QL80_.jpg",
+    "desc": "Harry Potter discovers his magical heritage on his eleventh birthday when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry."
+  },
+  {
+    "id": 2,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "category": "Sci-Fi",
+    "year": 1965,
+    "image": "https://m.media-amazon.com/images/I/81ym3QUd3KL._AC_UF1000,1000_QL80_.jpg",
+    "desc": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the 'spice' melange."
+  },
+  {
+    "id": 3,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "category": "Fantasy",
+    "year": 1954,
+    "image": "https://m.media-amazon.com/images/I/91b0C2YNSrL._AC_UF1000,1000_QL80_.jpg",
+    "desc": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them."
+  },
+  {
+    "id": 4,
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Sci-Fi",
+    "year": 1949,
+    "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL._AC_UF1000,1000_QL80_.jpg",
+    "desc": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism."
+  },
+  {
+    "id": 5,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "category": "Philosophy",
+    "year": 1988,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51eqjXwFzwL._SX344_BO1,204,203,200_.jpg",
+    "desc": "A story about a shepherd named Santiago who travels from Spain to Egypt in search of a treasure."
+  }
+]
