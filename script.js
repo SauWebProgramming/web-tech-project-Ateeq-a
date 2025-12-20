@@ -1,3 +1,5 @@
+/* === JavaScript Logic: Hero Slider, Favorites, Filter === */
+
 const movieContainer = document.getElementById('movie-container');
 const searchInput = document.getElementById('searchInput');
 const typeFilter = document.getElementById('typeFilter');
@@ -6,27 +8,59 @@ const modal = document.getElementById('modal');
 const modalBody = document.getElementById('modal-body'); 
 const closeBtn = document.querySelector('.close-btn');
 
-
 const homeBtn = document.getElementById('homeBtn');
 const favBtn = document.getElementById('favBtn');
 
+// Hero Slider Elements
+const heroBg = document.getElementById('heroBg');
+const heroImage = document.getElementById('heroImage');
+const heroTitle = document.getElementById('heroTitle');
+const heroDesc = document.getElementById('heroDesc');
+const heroMeta = document.getElementById('heroMeta');
+
 let allMovies = [];
+let sliderMovies = [];
+let currentSlide = 0;
 
-
+// === 1. Fetch & Init ===
 async function fetchMovies() {
     try {
         const response = await fetch('movies.json');
         if (!response.ok) throw new Error('Failed to fetch');
         allMovies = await response.json();
         
-       
-        displayMovies(allMovies); 
+        // إعداد السلايدر (أول 5 أفلام)
+        sliderMovies = allMovies.slice(0, 5);
+        updateSlider();
+        
+        displayMovies(allMovies);
     } catch (error) {
         console.error('Error:', error);
     }
 }
 
+// === 2. Slider Logic ===
+function updateSlider() {
+    if (sliderMovies.length === 0) return;
+    const movie = sliderMovies[currentSlide];
+    heroBg.style.backgroundImage = `url('${movie.image}')`;
+    heroImage.src = movie.image;
+    heroImage.alt = movie.title;
+    heroTitle.innerText = movie.title;
+    heroDesc.innerText = movie.desc;
+    heroMeta.innerText = `⭐ ${movie.rating} | ${movie.type} | ${movie.genre}`;
+}
 
+function moveSlide(direction) {
+    if (sliderMovies.length === 0) return;
+    currentSlide = (currentSlide + direction + sliderMovies.length) % sliderMovies.length;
+    updateSlider();
+}
+
+// تشغيل السلايدر تلقائياً
+setInterval(() => moveSlide(1), 5000);
+
+// === 3. Display & Filter ===
 function filterMovies() {
     const searchTerm = searchInput.value.toLowerCase();
     const selectedType = typeFilter.value;
@@ -45,7 +79,6 @@ function displayMovies(movies) {
     movieContainer.innerHTML = '';
     
     if (movies.length === 0) {
-       
         movieContainer.innerHTML = '<p style="text-align:center; width:100%; color:#ccc; grid-column: 1 / -1; padding: 20px;">No matches found.</p>';
         return;
     }
@@ -67,7 +100,7 @@ function displayMovies(movies) {
     });
 }
 
-
+// === 4. Modal & Favorites ===
 function openModal(movie) {
     const favorites = JSON.parse(localStorage.getItem('myFavorites')) || [];
     const isFav = favorites.some(fav => fav.id === movie.id);
@@ -114,10 +147,12 @@ function toggleFavorite(movie) {
     }
 }
 
+// === 5. Navigation ===
 homeBtn.addEventListener('click', (e) => {
     e.preventDefault();
     homeBtn.classList.add('active');
     favBtn.classList.remove('active');
+    document.getElementById('heroSlider').style.display = 'flex';
     document.querySelector('.filter-bar').style.display = 'block';
     displayMovies(allMovies);
 });
@@ -130,6 +165,7 @@ favBtn.addEventListener('click', (e) => {
 });
 
 function showFavorites() {
+    document.getElementById('heroSlider').style.display = 'none';
     document.querySelector('.filter-bar').style.display = 'none';
     
     const favorites = JSON.parse(localStorage.getItem('myFavorites')) || [];
