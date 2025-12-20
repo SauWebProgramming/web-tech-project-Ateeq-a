@@ -298,5 +298,135 @@
     "rating": 9.1,
     "image": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
     "desc": "After defeating the Demon King, the elf mage Frieren sets out on a journey to learn more about humans."
+  },
+  {
+    "id": 501,
+    "title": "Naruto: Shippuuden",
+    "type": "Anime",
+    "genre": "Animation, Drama, Adventure",
+    "year": 2007,
+    "rating": 8.2,
+    "image": "https://cdn.myanimelist.net/images/anime/5/17407.jpg",
+    "desc": "It has been two and a half years since Naruto Uzumaki left Konohagakure for intense training. Now Akatsuki is closing in on their grand plan."
+  },
+  {
+    "id": 502,
+    "title": "One Piece",
+    "type": "Anime",
+    "genre": "Animation, Drama, Adventure",
+    "year": 1999,
+    "rating": 8.5,
+    "image": "https://cdn.myanimelist.net/images/anime/12/74043.jpg",
+    "desc": "Gol D. Roger was known as the 'Pirate King'. His last words revealed the existence of the greatest treasure in the world, One Piece."
+  },
+  {
+    "id": 503,
+    "title": "Attack on Titan",
+    "type": "Anime",
+    "genre": "Animation, Drama, Adventure",
+    "year": 2013,
+    "rating": 8.5,
+    "image": "https://cdn.myanimelist.net/images/anime/5/44560.jpg",
+    "desc": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear."
+  },
+  {
+    "id": 504,
+    "title": "JoJo's Bizarre Adventure",
+    "type": "Anime",
+    "genre": "Action, Adventure, Supernatural",
+    "year": 2012,
+    "rating": 8.4,
+    "image": "https://cdn.myanimelist.net/images/anime/3/40409l.jpg",
+    "desc": "In 1868, Dario Brando saves the life of an English nobleman. His son Dio aspires to seize the Joestar house for his own using an Aztec stone mask."
+  },
+  {
+    "id": 505,
+    "title": "Death Note",
+    "type": "Anime",
+    "genre": "Mystery, Psychological, Thriller",
+    "year": 2006,
+    "rating": 8.2,
+    "image": "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+    "desc": "A shinigami drops a Death Note into the human realm. A high school student finds it and decides to rid the world of criminals."
+  },
+  {
+    "id": 506,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "type": "Anime",
+    "genre": "Action, Adventure, Fantasy",
+    "year": 2009,
+    "rating": 9.2,
+    "image": "https://cdn.myanimelist.net/images/anime/5/47421.jpg",
+    "desc": "Alchemy is bound by the Law of Equivalent Exchange. Two brothers search for a Philosopher's Stone to restore their bodies after a failed experiment."
+  },
+  {
+    "id": 507,
+    "title": "Tokyo Ghoul",
+    "type": "Anime",
+    "genre": "Action, Mystery, Horror",
+    "year": 2014,
+    "rating": 8.0,
+    "image": "https://cdn.myanimelist.net/images/anime/5/64449.jpg",
+    "desc": "Ken Kaneki, a shy college student, is instantly drawn to Rize. However, Rize is a ghoul, and this meeting pushes Kaneki into the dark world of ghouls."
+  },
+  {
+    "id": 508,
+    "title": "Black Clover",
+    "type": "Anime",
+    "genre": "Magic, Shounen, Adventure",
+    "year": 2017,
+    "rating": 6.6,
+    "image": "https://cdn.myanimelist.net/images/anime/4/88335.jpg",
+    "desc": "Asta and Yuno were abandoned at the same church. While Yuno wields magic, Asta cannot use magic at all and trains physically to become the Wizard King."
+  },
+  {
+    "id": 509,
+    "title": "Sword Art Online",
+    "type": "Anime",
+    "genre": "Action, Adventure, Fantasy",
+    "year": 2012,
+    "rating": 7.7,
+    "image": "https://cdn.myanimelist.net/images/anime/8/36343.jpg",
+    "desc": "In the year 2022, virtual reality has progressed by leaps and bounds. Players can control their avatars in SAO using nothing but their own thoughts."
+  },
+  {
+    "id": 510,
+    "title": "The Seven Deadly Sins",
+    "type": "Anime",
+    "genre": "Action, Adventure, Fantasy",
+    "year": 2014,
+    "rating": 8.3,
+    "image": "https://cdn.myanimelist.net/images/anime/8/65409.jpg",
+    "desc": "The Seven Deadly Sins were a group of knights in the region of Britannia who supposedly betrayed the kingdom. Now, a princess searches for them."
+  },
+  {
+    "id": 511,
+    "title": "Parasyte: The Maxim",
+    "type": "Anime",
+    "genre": "Sci-Fi, Horror, Psychological",
+    "year": 2014,
+    "rating": 8.5,
+    "image": "https://cdn.myanimelist.net/images/anime/5/73085.jpg",
+    "desc": "Parasitic aliens descend upon Earth and infiltrate humanity by burrowing into brains. One alien fails to take over a high schooler's brain and matures in his hand."
+  },
+  {
+    "id": 512,
+    "title": "Hunter x Hunter (2011)",
+    "type": "Anime",
+    "genre": "Action, Adventure, Fantasy",
+    "year": 2011,
+    "rating": 9.1,
+    "image": "https://cdn.myanimelist.net/images/anime/11/33657.jpg",
+    "desc": "Twelve-year-old Gon Freecss is determined to become the best Hunter possible in hopes of finding his father, who was a Hunter himself."
+  },
+  {
+    "id": 513,
+    "title": "Dragon Ball Z",
+    "type": "Anime",
+    "genre": "Action, Adventure, Shounen",
+    "year": 1989,
+    "rating": 8.3,
+    "image": "https://cdn.myanimelist.net/images/anime/13/18075.jpg",
+    "desc": "Gokuu reveals he is a warrior from the Saiyan race. He fights to protect the Earth from powerful intergalactic villains."
   }
 ]
