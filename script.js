@@ -1,4 +1,4 @@
-/* === JavaScript Logic: Hero Slider, Favorites, Filter === */
+
 
 const movieContainer = document.getElementById('movie-container');
 const searchInput = document.getElementById('searchInput');
@@ -11,7 +11,7 @@ const closeBtn = document.querySelector('.close-btn');
 const homeBtn = document.getElementById('homeBtn');
 const favBtn = document.getElementById('favBtn');
 
-// Hero Slider Elements
+
 const heroBg = document.getElementById('heroBg');
 const heroImage = document.getElementById('heroImage');
 const heroTitle = document.getElementById('heroTitle');
@@ -22,14 +22,13 @@ let allMovies = [];
 let sliderMovies = [];
 let currentSlide = 0;
 
-// === 1. Fetch & Init ===
 async function fetchMovies() {
     try {
         const response = await fetch('movies.json');
         if (!response.ok) throw new Error('Failed to fetch');
         allMovies = await response.json();
         
-        // إعداد السلايدر (أول 5 أفلام)
+      
         sliderMovies = allMovies.slice(0, 5);
         updateSlider();
         
@@ -39,7 +38,6 @@ async function fetchMovies() {
     }
 }
 
-// === 2. Slider Logic ===
 function updateSlider() {
     if (sliderMovies.length === 0) return;
     const movie = sliderMovies[currentSlide];
@@ -57,10 +55,10 @@ function moveSlide(direction) {
     updateSlider();
 }
 
-// تشغيل السلايدر تلقائياً
+
 setInterval(() => moveSlide(1), 5000);
 
-// === 3. Display & Filter ===
+
 function filterMovies() {
     const searchTerm = searchInput.value.toLowerCase();
     const selectedType = typeFilter.value;
@@ -100,7 +98,7 @@ function displayMovies(movies) {
     });
 }
 
-// === 4. Modal & Favorites ===
+
 function openModal(movie) {
     const favorites = JSON.parse(localStorage.getItem('myFavorites')) || [];
     const isFav = favorites.some(fav => fav.id === movie.id);
@@ -147,7 +145,7 @@ function toggleFavorite(movie) {
     }
 }
 
-// === 5. Navigation ===
+
 homeBtn.addEventListener('click', (e) => {
     e.preventDefault();
     homeBtn.classList.add('active');
